@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Latidos.Vista.VistaLatidos">
+    <StackLayout>
+        <Label Text="Calculadora de latidos!!!"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="30"/>
+
+        <Label Text="{Binding FrecuenciaTexto}"
+               FontSize="20"
+               TextColor="Red"/>
+        <Label Text="{Binding FrecuenciaCardiacaTextoOP}"
+               TextColor="Orange"/>
+        <Entry Placeholder="No. Latidos en 15 segundos"
+               Text="{Binding Latidos}"/>
+        
+        <Button Text="Mostrar freuencia cardiaca"
+                Command="{Binding FrecuenciaCardiacacommand}"/>
+    </StackLayout>
+</ContentPage>

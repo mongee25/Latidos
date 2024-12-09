@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latidos.Android", "Latidos\Latidos.Android\Latidos.Android.csproj", "{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latidos.iOS", "Latidos\Latidos.iOS\Latidos.iOS.csproj", "{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latidos", "Latidos\Latidos\Latidos.csproj", "{089D1050-6FA2-40AA-876B-AFD34E17BCBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A23C4D-EAA8-41E0-BA03-8E7F45BB23B4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}.Debug|Any CPU.Deploy.0 = Debug|iPhone
+		{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{E4C7F56B-D591-4F2F-BAF8-6A5ECF23A7C5}.Release|Any CPU.Deploy.0 = Release|iPhoneSimulator
+		{089D1050-6FA2-40AA-876B-AFD34E17BCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089D1050-6FA2-40AA-876B-AFD34E17BCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089D1050-6FA2-40AA-876B-AFD34E17BCBA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{089D1050-6FA2-40AA-876B-AFD34E17BCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089D1050-6FA2-40AA-876B-AFD34E17BCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089D1050-6FA2-40AA-876B-AFD34E17BCBA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
